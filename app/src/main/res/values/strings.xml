@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Moviestickets</string>
+    <string name="log">"Please login to see your previous order history \n and pending assisted orders"</string>
+    <string name="wallet">"Login to experience our brand new wallet ! instant \n refunds, No OTP"</string>
+    <string name="mvpass">Moviepass provides identity management services \n across mmultiple websites -  Justickets and moviebuff</string>
+    <string name="action_serach">search</string>
+    <string name="jt">"Justickets Private Limited  42,\n Dr Ranga Road,Mylapore  Chennai 600004,India"</string>
+    <string name="aboutoff">Justickets offer a quick and easy way \n to book tickets online for current and \n upcoming movie releases across cities \n in india. Pick a movie and get tickets at \n your favourite cinema or choose from \n many other cinemas in your city</string>
+    <string name="aboutcopyr">"@CopyRight Just Tickets Private Limited"</string>
+    <string name="aboutver">version:2.9.9.51</string>
+    <string name="aboutjt">JusTickets</string>
+    <string name="aboutmt">Movie Tickets, Show Times</string>
+    <string name="aboutshare">Purchase Policy</string>
+    <string name="abtlock">Privacy Policy</string>
+    <string name="aboutcond">Terms and Conditions</string>
+</resources>

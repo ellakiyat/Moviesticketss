@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lnlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/infoToolbar"
+        android:layout_width="match_parent"
+        android:title="Moviepass Login"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellowgold"
+        android:subtitleTextColor="#ffffff"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INFO"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ln_lay1">
+
+    <ImageView
+        android:id="@+id/shareinfoImageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_share"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="130dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="5dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/shareinfoImageview"
+        android:gravity="center"
+        android:text="Share this app"
+        android:id="@+id/shareinfoTextview"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ln_la2">
+        <ImageView
+            android:id="@+id/starinfoImgview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/ic_star"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/starinfoImgview"
+            android:gravity="center"
+            android:text="Rate in Playstore"
+            android:id="@+id/txt_star"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ln_la3">
+        <ImageView
+            android:id="@+id/fdbackinfoImgview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_feedback"
+            android:paddingTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/fdbackinfoImgview"
+            android:gravity="center"
+            android:text="Feedback"
+            android:id="@+id/fdbackinfoTextview"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ln_la4">
+        <ImageView
+            android:id="@+id/callInfoImgview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_call"
+            android:paddingTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/callInfoImgview"
+            android:gravity="center"
+            android:text="Contact"
+            android:id="@+id/callinfoTextview"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ln_la5">
+        <ImageView
+            android:id="@+id/abtinfoImgview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_info"
+            android:paddingTop="30dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:paddingTop="30dp"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/abtinfoImgview"
+            android:gravity="center"
+            android:text="About"
+            android:id="@+id/abtinfoTextview"/>
+    </LinearLayout>
+
+</LinearLayout>

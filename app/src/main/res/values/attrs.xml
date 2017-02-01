@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleButton">
+        <attr name="cb_color" format="color" />
+        <attr name="text" format="string"/>
+        <attr name="cb_pressedRingWidth" format="dimension" />
+    </declare-styleable>
+</resources>
+
+    <!--
+    We have to define over custom view attributes,
+    <resources> - we declare our attributes in an XML file with <resources> as the root element
+    <declare-styleable> - we declare our attributes inside the <declare-styleable>  element
+    MyCustomView – the name of our custom view
+    <attr> - we declare each attribute using the <attr> element. For each attribute, you need to declare a:
+    name – the name of the attribute
+    format – the format of the attribute
+    -->
+

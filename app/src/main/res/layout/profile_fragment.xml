@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellowgold"
+        android:fitsSystemWindows="true">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/id_proftoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:subtitleTextColor="#ffffff">
+            <TextView
+                android:id="@+id/profTextview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MY PROFILE"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/mvpassTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="160dp"
+            android:text="MOVIEPASS"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#FFC300"
+            android:textSize="40sp" />
+        <TextView
+            android:id="@+id/urprofTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mvpassTextview"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp"
+            android:text="YOUR PROFILE"
+            android:textColor="#AFACAB"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/plsloginTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/urprofTextview"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="15dp"
+            android:text="@string/log"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <com.realimage.administrator.moviesticket.CircleButton
+            android:id="@+id/customView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/circular_button_selector"
+            android:src="@drawable/business"
+            custom:cb_color="@color/green"
+            android:layout_below="@+id/plsloginTextview"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

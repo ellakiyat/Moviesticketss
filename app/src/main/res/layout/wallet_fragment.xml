@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.realimage.administrator.moviesticket.fragment.WalletFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/walletToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellowgold"
+        android:subtitleTextColor="#ffffff"
+        android:title="Moviepass Login">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JUSTICKETS WALLET"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/mvpwalletTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="160dp"
+        android:text="MOVIEPASS"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFC300"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/plslogwalletTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mvpwalletTextview"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:text="PLEASE LOGIN"
+        android:textColor="#AFACAB"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/logwalletTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plslogwalletTextview"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15dp"
+        android:text="@string/wallet"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/btn_wallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logwalletTextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Login"
+        android:textColor="#0F4581" />
+</RelativeLayout>

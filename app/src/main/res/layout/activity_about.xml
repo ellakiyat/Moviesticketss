@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_clll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_cll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/id_toolbar"
+        android:layout_width="match_parent"
+        android:title="Moviepass Login"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/yellowgold"
+        android:subtitleTextColor="#ffffff"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rl_cll"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/img_aboutuser"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="15dp"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/tv_aboutver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_aboutuser"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="5dp"
+                android:text="@string/aboutver"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_aboutjt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_aboutver"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="15dp"
+                android:text="@string/aboutjt"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_aboutmt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_aboutjt"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="10dp"
+                android:text="@string/aboutmt"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_aboutoff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_aboutmt"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="10dp"
+                android:text="@string/aboutoff"
+                />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:paddingTop="15dp"
+            android:id="@+id/cont4"
+            android:background="#c0c0c0"
+            android:layout_below="@+id/tv_aboutoff"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/abt"
+            android:layout_below="@+id/cont4">
+
+
+            <ImageView
+                android:id="@+id/img_aboutshare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/ic_share"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img_share"
+                android:gravity="center"
+                android:text="@string/aboutshare"
+                android:id="@+id/txt_abouutshare"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/abt1"
+            android:layout_below="@+id/abt"
+            >
+            <ImageView
+                android:id="@+id/img_abtlock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/ic_feedback"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img_share"
+                android:gravity="center"
+                android:text="@string/abtlock"
+                android:id="@+id/tv_aboutlock"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/abt2"
+            android:layout_below="@+id/abt1"
+            >
+            <ImageView
+                android:id="@+id/img_aboutterms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="3dp"
+                android:src="@drawable/ic_info"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="5dp"
+
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/img_share"
+                android:gravity="center"
+                android:text="@string/aboutcond"
+                android:id="@+id/tv_aboutcond"/>
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:paddingTop="10dp"
+            android:id="@+id/view"
+            android:background="#c0c0c0"
+            android:layout_below="@+id/abt2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingLeft="5dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/view"
+            android:text="@string/aboutcopyr"
+            android:id="@+id/tv_aboutcopyr"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

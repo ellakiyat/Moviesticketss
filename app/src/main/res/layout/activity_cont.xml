@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_clll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_cll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/id_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/yellowgold"
+            android:subtitleTextColor="#ffffff"
+            android:title="Moviepass Login">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </android.support.v7.widget.Toolbar>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="68dp">
+
+        <RelativeLayout
+
+            android:id="@+id/rl_c"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/cont"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="25dp"
+            android:src="@drawable/user" />
+
+        <TextView
+            android:id="@+id/tv_cont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cont"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="10dp"
+            android:text="Justickets"
+            android:textColor="#000"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_cont1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cont"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp"
+            android:text="Version:2.9.9.51"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_cont2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cont1"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="35dp"
+            android:text="Get in Touch!"
+            android:textColor="#0C4079"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_cont3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cont2"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="20dp"
+            android:text=""
+            android:textColor="#000"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_cont4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cont3"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="35dp"
+            android:text="Email"
+            android:textColor="#0C4079"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_cont5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cont4"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="15dp"
+            android:text="support@justickets.in"
+            android:textColor="#000"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_cont6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cont5"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="20dp"
+            android:text="Phone"
+            android:textColor="#0C4079"
+            android:textSize="18sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_cont7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_cont6"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="15dp"
+            android:text="+918088101122"
+            android:textColor="#000"
+
+            />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

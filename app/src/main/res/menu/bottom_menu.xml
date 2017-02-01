@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/intheatre"
+        android:icon="@drawable/theatre"
+        android:title="Theatre"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/assistant"
+        android:icon="@drawable/nurse"
+        android:title="Assistant"
+        app:showAsAction="always"></item>
+    <item
+
+        android:id="@+id/myprofile"
+        android:icon="@drawable/user"
+        android:title="Myprofile"
+        app:showAsAction="always">
+
+    </item>
+    <item
+        android:id="@+id/wallet"
+        android:icon="@drawable/wallet"
+        android:title="Wallet"
+        app:showAsAction="always"></item>
+
+    <item
+
+        android:id="@+id/info"
+        android:icon="@drawable/info"
+        android:title="info"
+        app:showAsAction="always"
+        ></item>
+</menu>
